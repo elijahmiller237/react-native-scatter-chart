@@ -1,14 +1,14 @@
 {
-  "name": "react-native-scatter-chart",
+  "name": "@elis-stuff/react-native-scatter-chart",
   "version": "1.0.5",
-  "description": "Scatter charts without native dependencies",
+  "description": "Fork of malexandrum's react-native-scatter-chart updated to use getDerivedStateFromProps instead of componentWillReceiveProps",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malexandrum/react-native-scatter-chart.git"
+    "url": "https://github.com/elijahmiller237/react-native-scatter-chart-em#master"
   },
   "keywords": [
     "react",
@@ -16,10 +16,10 @@
     "charts",
     "scatter"
   ],
-  "author": "Alexandru MOLODOI",
+  "author": "elijahmiller237",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/malexandrum/react-native-scatter-chart/issues"
+    "url": "https://github.com/elijahmiller237/react-native-scatter-chart-em/pulls"
   },
-  "homepage": "https://github.com/malexandrum/react-native-scatter-chart#readme"
+  "homepage": "https://github.com/elijahmiller237/react-native-scatter-chart-em#readme"
 }
