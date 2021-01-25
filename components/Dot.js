@@ -15,9 +15,9 @@ const propTypes = {
 };
 
 const defaultProps = {
-    opacity: .3,
+    opacity: 1,
     color: 'red',
-    size: 5
+    size: 10
 };
 
 class Dot extends React.Component {
