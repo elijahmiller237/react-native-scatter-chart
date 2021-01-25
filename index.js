@@ -92,10 +92,10 @@ class ScatterChart extends React.PureComponent {
             </View>
         );
     }
-    getDerivedStateFromProps(nextProps, state) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
         this.computeAxes(nextProps);
     }
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
         this.computeAxes(this.props);
     }
     computeAxes = async (props) => {
